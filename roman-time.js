@@ -8,7 +8,7 @@ if (hours > 24 || hours < 0 || minutes > 59 || minutes < 0) {
 }
 else {
 
-    var Rome1to9 = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VII', 'IX'];
+    var Rome1to9 = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'];
     var Rome10 = ['', 'X', 'XX', 'XXX', 'XL', 'L'];
     RomeMinutes = Rome10[Math.floor(minutes / 10)] + Rome1to9[minutes % 10];
     RomeHours = Rome10[Math.floor(hours / 10)] + Rome1to9[hours % 10];
